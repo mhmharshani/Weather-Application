@@ -1,0 +1,58 @@
+
+@font-face {
+    font-family: poppins;
+    src: url("../fonts/Poppins-Regular.ttf");
+}
+
+.container-fluid{
+    
+}
+.main_header_div{
+    background-color: #9a8c98;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.header_left_side{
+    /* background-color: aliceblue; */
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.header_left_side img{
+    width: 30%;
+    height: 10%;
+}
+
+.header_left_side label{
+    font-family: poppins;
+    font-size: 20px;
+    color: #22223b;
+}
+
+.page_logo_div{
+    /* width: 50%; */
+}
+
+.header_right_side{
+    /* background-color: bisque; */
+    
+    width: 50%;
+    height: 15%;
+    display: flex;
+    justify-content: right;
+    align-content: center;
+
+}
+
+.header_right_side input{
+    cursor: text;
+    border-radius: 0.2rem;
+    margin-right: 25px;
+    border: none;
+    outline: none;
+    background-color: #f2e9e4;
+    color: #22223b;
+}
